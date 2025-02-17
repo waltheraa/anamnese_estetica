@@ -375,7 +375,7 @@ jQuery(document).ready(function($) {
 
                                 <div class="print-section signatures">
                                     <h2>Termo de Responsabilidade</h2>
-                                    <p class="disclaimer">Eu, ${data.nome}, declaro estar ciente sobre todos os benefícios e contraindicações relacionados à massoterapia.</p>
+                                    <p class="disclaimer">Eu, ${data.nome}, declaro estar ciente sobre todos os benefícios e contraindicações relacionados à massoterapia. As declarações acima são verdadeiras, não cabendo ao profissional a responsabilidade por informações omitidas.</p>
                                     
                                     <div class="signature-container">
                                         <div class="signature-box">

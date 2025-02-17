@@ -265,7 +265,7 @@ if (!defined('ABSPATH')) {
         <!-- Termo de Responsabilidade -->
         <div class="form-section">
             <h3>Termo de Responsabilidade</h3>
-            <p>Eu, declaro estar ciente sobre todos os benefícios e contraindicações relacionados à massoterapia.</p>
+            <p>Eu, declaro estar ciente sobre todos os benefícios e contraindicações relacionados à massoterapia. As declarações acima são verdadeiras, não cabendo ao profissional a responsabilidade por informações omitidas.</p>
             
             <div class="form-group">
                 <label for="assinatura-cliente" class="required-field">Assinatura do cliente:</label>

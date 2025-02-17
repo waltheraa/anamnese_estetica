@@ -1,12 +1,12 @@
 <?php
-/**
- * Plugin Name: Anamnese Estética
- * Description: Sistema de gerenciamento de anamnese para clínica de estética
- * Plugin URI: https://www.instagram.com/walther_aa/
- * Version: 1.0
- * Author: Walther Alves Almeida
- * Author URI: https://www.instagram.com/walther_aa/
- */
+/*
+Plugin Name: Anamnese Estetica
+Plugin URI: https://www.instagram.com/walther_aa
+Description: Sistema de gerenciamento de anamnese para clinica de estetica
+Version: 1.0
+Author: Walther Alves Almeida
+Author URI: https://www.instagram.com/walther_aa
+*/
 
 if (!defined('ABSPATH')) {
     exit;
