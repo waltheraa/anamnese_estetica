@@ -31,10 +31,11 @@
 }
 
 .form-section h3 {
+    font-size: 24px;
     margin-top: 0;
     margin-bottom: 20px;
     color: #333;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 3px solid pink;
     padding-bottom: 10px;
 }
 
@@ -79,7 +80,7 @@
 }
 
 .submit-button {
-    background: #0073aa;
+    background: #8a2c8b;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -89,7 +90,7 @@
 }
 
 .submit-button:hover {
-    background: #005177;
+    background: #d37cd4;
 }
 
 .close-form {
@@ -337,9 +338,26 @@ input[readonly]:focus {
     }
 
     .radio-group .radio-options {
+        display: flex;
         flex-direction: column;
         gap: 10px;
         width: 100%;
+    }
+    
+    .radio-group .radio-options label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        padding: 5px 0;
+        border: 1px solid pink;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    .radio-group .radio-options input[type="radio"] {
+        order: 2;
+        margin-left: 10px;
     }
 }
 
@@ -471,8 +489,8 @@ body.fullscreen-plugin .wrap {
 .anamnese-form label {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 0.9em;
-    font-weight: 500;
-    color: #333;
+    font-weight: 600;
+    color: #4a154b;
 }
 
 .anamnese-form .option-label {
@@ -495,16 +513,16 @@ body.fullscreen-plugin .wrap {
 }
 
 .anamnese-form .radio-group input {
-    margin-right: 10px;
+    margin-right: 55px;
 }
 
 .anamnese-form input, .anamnese-form textarea {
     font-size: 1em;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    width: 100%;
+    border: 1px solid pink;
+    border-radius: 10px;
+    width: 95%;
 }
 
 .anamnese-form button {
